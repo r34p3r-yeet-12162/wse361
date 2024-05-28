@@ -1,0 +1,12 @@
+GET http://localhost:8088/users/view
+###
+
+POST http://localhost:8088/users/add
+Content-Type: application/json
+
+{
+"name":"Jane",
+"surname":"Doe",
+"age":20
+}
+###
